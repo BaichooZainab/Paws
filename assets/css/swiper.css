@@ -1,0 +1,17 @@
+.swiper-container {
+    margin: 0 auto; /* Horizontally center the container */
+    max-width: 500px; /* Set a maximum width for the container if desired */
+    overflow: hidden; /* Hide any content that overflows from the container */
+}
+
+/* Center the pagination bullets */
+.swiper-pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Adjust the top margin as needed */
+}
+
+/* Adjust the height of the slides to fit on one page */
+.swiper-slide {
+    height: 700px; /* Set the desired height for the slides */
+}
